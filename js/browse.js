@@ -31,12 +31,7 @@ function bookClick(event){
   }
 }
 var page = document.getElementById('bookThumbnails');
-page.addEventlistner('click', bookClick);
+page.addEventListener('click', bookClick);
 
-
-
-// library = JSON.parse(localStorage.books);
-// populateBooks(library);
-
-// //  let newBook = new Book (........);
-// //  localStorage.setItem('bookInLocalStorage', JSON.stringify(newBook));
+library = JSON.parse(localStorage.books);
+populateBooks(library);
