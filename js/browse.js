@@ -23,5 +23,14 @@ function populateBooks(bookArr) {
   });
 }
 
+function handleBookSelection(event) {
+  // event.target.src  is the imageURL
+  console.log(event);
+}
+
+document
+  .getElementById('bookThumbnails')
+  .addEventListener('click', handleBookSelection);
+
 library = JSON.parse(localStorage.books);
 populateBooks(library);
