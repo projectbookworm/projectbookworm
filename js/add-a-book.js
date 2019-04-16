@@ -46,7 +46,7 @@ function addABook(event){
     console.table(library);
 
     //store the new book to localstorage in individual key for easy access
-    localStorage.setItem('newBook',newBook);
+    localStorage.setItem('newBook',JSON.stringify(newBook));
     console.table(localStorage.getItem('newBook'));
 
   }else{
