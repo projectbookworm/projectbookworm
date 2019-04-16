@@ -121,12 +121,21 @@ function clearLocalStorage() {
   console.table(localStorage.getItem('books'));
 }
 
-populateInitialBookData();
-console.table(library);
+if(localStorage.getItem('books')) {
+  console.log('Storage set with data, will parse and re-populate dataset');
+  getLocalStorageData();
+  console.log('... stored data loaded.');
+}else {
+  //population of data objects if no local storage is set
+  console.log('Storage is not set, initializing objects to start . . .');
+  populateInitialBookData();
+  console.table(library);
+  setLocalStorageData();
 
-setLocalStorageData();
+  console.log('images initialized');
+}
 
-getLocalStorageData();
+
 
 // clearLocalStorage();
 
