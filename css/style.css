@@ -1,9 +1,15 @@
 * {
   margin: 0 auto;
+  text-align: center;
 }
 
 header {
-  height: 75px;
+  height: 100vh;
+  background-color: #ccc;
+  background-image: url('https://placehold.it/960x450/000000/3d3d3d');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 header h1 {
