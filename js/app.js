@@ -22,7 +22,7 @@ function populateInitialBookData() {
     'The Hunger Games',
     'Suzanne Collins',
     '978-0439023528',
-    'https://en.wikipedia.org/wiki/The_Hunger_Games#/media/File:The_Hunger_Games_cover.jpg',
+    'https://images-na.ssl-images-amazon.com/images/I/51PHNm5MhXL._SX327_BO1,204,203,200_.jpg',
     'In the ruins of a place once known as North America lies the nation of Panem, a shining Capitol surrounded by twelve outlying districts. Long ago the districts waged war on the Capitol and were defeated. As part of the surrender terms, each district agreed to send one boy and one girl to appear in an annual televised event called, "The Hunger Games," a fight to the death on live TV. Sixteen-year-old Katniss Everdeen, who lives alone with her mother and younger sister, regards it as a death sentence when she is forced to represent her district in the Games. The terrain, rules, and level of audience participation may change but one thing is constant: kill or be killed.'
   );
   new Book(
