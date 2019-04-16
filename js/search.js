@@ -4,6 +4,18 @@
 
 var searchSubmit = document.getElementById('search');
 
+function searchByTitle(){
+
+}
+
+function searchByAuthor(){
+
+}
+
+function searchByISBN(){
+
+}
+
 function handleSearchClick(event){
 
   event.preventDefault();
