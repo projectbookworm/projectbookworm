@@ -24,6 +24,20 @@ function handleSearchClick(event){
 
 function search(filter,keyword){
 
+  switch(filter){
+  case 'title':
+    searchByTitle(keyword);
+    break;
+  case 'author':
+    searchByAuthor(searchByAuthor);
+    break;
+  case 'isbn13':
+    searchByISBN(keyword);
+    break;
+  default:
+
+  }
+
 }
 
 ////MAIN CALLS / EVENT LISTENERS//////////
