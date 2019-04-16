@@ -48,7 +48,9 @@ function displayQuotes(quotesArr) {
   quotesDisplay = [];
   for (let i = quotesDisplay.length; quotesDisplay.length < 3; i++) {
     let index = Math.floor(Math.random() * quotesArr.length);
-    quotesDisplay.push(quotesArr[index]);
+    if (!quotesDisplay.includes(quotesArr[index])) {
+      quotesDisplay.push(quotesArr[index]);
+    }
   }
 
   quotesDisplay.forEach((quote) => {
