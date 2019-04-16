@@ -1,4 +1,5 @@
-console.log('quotes js working');
+let quotesList = document.getElementById('quotes');
+console.log(quotesList);
 
 staticQuotesData = [
   {
@@ -43,4 +44,25 @@ staticQuotesData = [
   }
 ];
 
-console.log(staticQuotesData);
+function displayQuotes(quotesArr) {
+  quotesDisplay = [];
+  for (let i = quotesDisplay.length; quotesDisplay.length < 3; i++) {
+    let index = Math.floor(Math.random() * quotesArr.length);
+    quotesDisplay.push(quotesArr[index]);
+  }
+
+  quotesDisplay.forEach((quote) => {
+    let quoteListItem = document.createElement('li');
+    quoteListItem.textContent = `"${quote.text}"`;
+    let quoteAuthor = document.createElement('span');
+    quoteAuthor.setAttribute('class', 'quote-author');
+    quoteAuthor.textContent = ` - ${quote.author}`;
+
+    quoteListItem.appendChild(quoteAuthor);
+    quotesList.appendChild(quoteListItem);
+
+    console.log(quoteListItem);
+  });
+}
+
+displayQuotes(staticQuotesData);
