@@ -44,7 +44,7 @@ function populateInitialBookData() {
     'Lewis Carroll',
     '978-0147515872',
     'https://images.penguinrandomhouse.com/cover/9780147515872',
-    "The story begins as Alice is sitting by a river bank on a summer day. As she is reading she sees over her sister's shoulder, a White Rabbit in a waistcoat running by. The White Rabbit pulls a watch out of his pocket and says that he is late."
+    'The story begins as Alice is sitting by a river bank on a summer day. As she is reading she sees over her sister\'s shoulder, a White Rabbit in a waistcoat running by. The White Rabbit pulls a watch out of his pocket and says that he is late.'
   );
   new Book(
     'Cracking the Coding Interview',
@@ -62,14 +62,12 @@ function getLocalStorageData() {
   localStorageBooks = JSON.parse(localStorage.getItem('books'));
   library = [];
   for (let i = 0; i < localStorageBooks.length; i++) {
-    library.push(
-      new Book(
-        localStorageBooks[i].bookTitle,
-        localStorageBooks[i].author,
-        localStorageBooks[i].isbn13,
-        localStorageBooks[i].imageURL,
-        localStorageBooks[i].description
-      )
+    new Book(
+      localStorageBooks[i].bookTitle,
+      localStorageBooks[i].author,
+      localStorageBooks[i].isbn13,
+      localStorageBooks[i].imageURL,
+      localStorageBooks[i].description
     );
   }
   console.table(library);
