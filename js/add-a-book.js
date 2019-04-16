@@ -3,6 +3,14 @@
 //basic variables needed for this page->js
 var saveSubmit = document.getElementById('submit');
 
+function validateText(text) {
+  if (text === '' || text === null) {
+    //fill it in - change box color to yellow
+    return false;
+  }else{
+    return true;
+  }
+}
 
 function addABook(event){
 

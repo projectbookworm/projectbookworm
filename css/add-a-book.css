@@ -25,7 +25,7 @@ span {
   margin-left: 100px;
 }
 
-input {
+label input {
   width: 200px;
   float: right;
   margin-right: 100px;
@@ -47,6 +47,7 @@ textarea {
   width: 80px;
   padding: 5px;
   font-size: 1em;
+  text-align: center;
 }
 
 #submit:hover {
