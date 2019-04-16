@@ -1,0 +1,64 @@
+header {
+  background-color: grey;
+  height: 60px;
+}
+
+h1 {
+  text-align: center;
+}
+
+fieldset {
+  border-radius: 20px;
+  width: 560px;
+  text-align: center;
+  margin-bottom: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  padding-top: 40px; 
+}
+
+label {
+  padding: 20px;
+  display: block;
+  text-align: left;
+}
+
+span {
+  padding-right: 10px;
+  margin-left: 100px;
+}
+
+input {
+  width: 200px;
+  float: right;
+  margin-right: 100px;
+  padding: 5px;
+}
+
+textarea {
+  display: block;
+  margin-top: 20px;
+  margin-left: 100px;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+#submit {
+  border-radius: 5px;
+  width: 80px;
+  padding: 5px;
+  font-size: 1em;
+}
+
+#submit:hover {
+  background-color: gray;
+  color: white;
+}
+
+footer {
+  background-color: grey;
+  height: 60px; 
+}
+
