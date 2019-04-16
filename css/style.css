@@ -3,13 +3,18 @@
   text-align: center;
 }
 
-header {
+#home-bg {
   height: 100vh;
   background-color: #ccc;
   background-image: url('../images/book-stack.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.inner-bg {
+  height: 60px;
+  background-color: #ccc;
 }
 
 header h1 {
