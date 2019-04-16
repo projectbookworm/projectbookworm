@@ -23,5 +23,12 @@ function populateBooks(bookArr) {
   });
 }
 
-library = JSON.parse(localStorage.books);
-populateBooks(library);
+// function bookClick(event){
+
+// }
+
+// library = JSON.parse(localStorage.books);
+// populateBooks(library);
+
+// //  let newBook = new Book (........);
+// //  localStorage.setItem('bookInLocalStorage', JSON.stringify(newBook));
