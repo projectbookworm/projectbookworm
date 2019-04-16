@@ -95,6 +95,6 @@ setLocalStorageData();
 
 getLocalStorageData();
 
-clearLocalStorage();
+// clearLocalStorage();
 
-getLocalStorageData();
+// getLocalStorageData();

@@ -16,10 +16,12 @@ function addToDom(parentId, childType, source, id = null, className = null) {
 }
 
 function populateBooks(bookArr) {
+  let parentEl = document.getElementById('bookThumbnails');
+  parentEl.innerHTML = '';
   bookArr.forEach(element => {
     addToDom('bookThumbnails', 'img', element.imageURL);
   });
 }
 
-library = JSON.parse(localStorage.bookLibrary);
+library = JSON.parse(localStorage.books);
 populateBooks(library);
