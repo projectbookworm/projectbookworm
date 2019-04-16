@@ -110,7 +110,7 @@ function getLocalStorageData() {
 
 /******************************************* */
 function setLocalStorageData() {
-  console.log('Starting setLocalStorage()...');
+  console.log('Starting setLocalStorage()...', library);
   localStorage.setItem('books', JSON.stringify(library));
 }
 
