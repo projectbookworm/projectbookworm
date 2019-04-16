@@ -49,6 +49,8 @@ function addABook(event){
     localStorage.setItem('newBook',JSON.stringify(newBook));
     console.table(localStorage.getItem('newBook'));
 
+    location.replace('../html/detail.html');
+
   }else{
     alert('Invalid or Empty Data entered in field(s)');
   }
