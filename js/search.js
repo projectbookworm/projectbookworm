@@ -1,6 +1,7 @@
 'use strict';
 console.log('search js working');
-//scaffold of search JS
+
+////////////////////////////////////////////
 
 var searchFilterSubmit = document.getElementById('search-filter-submit');
 var searchIndexResults = [];
@@ -12,6 +13,8 @@ console.log('search filter value: ' + searchFilter.value);
 var searchKey = document.getElementById('keyphrase-filter');
 console.log(searchKey);
 console.log('search filter value: ' + searchKey.value);
+
+///////////////FUNCTIONS//////////////////////////
 
 function makeLowerCase(text){ //done :D
   return text.toLowerCase();
@@ -64,9 +67,6 @@ console.log('searchByISBN running...');
   }
 
   console.log(searchIndexResults);
-
-
-
 }
 
 function handleSearchClick(event){
@@ -77,11 +77,12 @@ function handleSearchClick(event){
 
   searchWithFilter(searchFilter.value, searchKey.value);
 
+  saveSearchResultsToLocalStorage();
 }
 
 
 function searchWithFilter(filter,keyword){
-
+  console.log('starting searchWithFilter function...');
   searchIndexResults = [];
 
   switch(filter){
@@ -97,6 +98,11 @@ function searchWithFilter(filter,keyword){
 
 }
 
+function saveSearchResultsToLocalStorage(){
+  console.log('saving search results to local storage, ...');
+  localStorage.setItem('searchResult',JSON.stringify(searchIndexResults));
+}
 
 /////MAIN CALLS///////////////////
+
 searchFilterSubmit.addEventListener('click',handleSearchClick);
