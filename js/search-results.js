@@ -2,6 +2,8 @@
 
 let searchResult;
 let query;
+// let resultsList = document.getElementById('search-results');
+resultsList.addEventListener('click', bookClick);
 
 function getSearchResults() {
   searchResult = JSON.parse(localStorage.getItem('searchResult'));
@@ -30,6 +32,18 @@ function displaySearchResults() {
 
     resultsList.appendChild(resultListItem);
   });
+}
+
+function bookClick(event) {
+  // if (event.target.tagName === 'MAIN') {
+  //   return;
+  // }
+  for (var i = 0; i < library.length; i++) {
+    if (event.target.src === library[i].imageURL) {
+      localStorage.setItem('newBook', JSON.stringify(library[i]));
+    }
+  }
+  window.location.href = '../html/detail.html';
 }
 
 getSearchResults();
