@@ -78,6 +78,9 @@ function handleSearchClick(event){
   searchWithFilter(searchFilter.value, searchKey.value);
 
   saveSearchResultsToLocalStorage();
+  
+  location.replace('../html/search-results.html');
+  
 }
 
 
