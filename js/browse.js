@@ -23,13 +23,16 @@ function populateBooks(bookArr) {
   });
 }
 
-function bookClick(event){
-  for (var i=0; i<library.length;i++){
-    if (event.target.src === library[i].imageURL){ 
+function bookClick(event) {
+  if (event.target.tagName === 'MAIN') {
+    return;
+  }
+  for (var i = 0; i < library.length; i++) {
+    if (event.target.src === library[i].imageURL) {
       localStorage.setItem('newBook', JSON.stringify(library[i]));
     }
   }
-  window.location.href ='../html/detail.html';
+  window.location.href = '../html/detail.html';
 }
 var page = document.getElementById('bookThumbnails');
 page.addEventListener('click', bookClick);
