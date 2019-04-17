@@ -18,6 +18,8 @@ function handleEnterSubmit(e) {
     searchBar(query);
     console.log('results in handleEnterSubmit: ', results);
     console.log('resultsList handleEnterSubmit: ', resultsList);
+    saveSearchResultsToLocalStorage();
+    location.replace('../html/search-results.html');
   }
 }
 
@@ -37,5 +39,3 @@ function saveSearchResultsToLocalStorage(){
   console.log('saving search results to local storage, ...');
   localStorage.setItem('searchResult', JSON.stringify(results));
 }
-saveSearchResultsToLocalStorage();
-location.replace('../html/detail.html');
