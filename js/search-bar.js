@@ -18,6 +18,7 @@ function handleEnterSubmit(e) {
     searchBar(query);
     console.log('results in handleEnterSubmit: ', results);
     console.log('resultsList handleEnterSubmit: ', resultsList);
+    saveQueryKeyPhrase(query);
     saveSearchResultsToLocalStorage();
     location.replace('../html/search-results.html');
   }
@@ -38,4 +39,9 @@ function searchBar(query){
 function saveSearchResultsToLocalStorage(){
   console.log('saving search results to local storage, ...');
   localStorage.setItem('searchResult', JSON.stringify(results));
+}
+
+function saveQueryKeyPhrase(query){
+  console.log('saving query keyphrase to local storage, ...');
+  localStorage.setItem('search-query',JSON.stringify(query));
 }
