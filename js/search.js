@@ -8,11 +8,11 @@ var searchIndexResults = [];
 
 var searchFilter = document.getElementById('search-filter');
 console.log(searchFilter);
-console.log('search filter value: ' + searchFilter.value);
+console.log('search filter value: ' + searchFilter);
 
 var searchKey = document.getElementById('keyphrase-filter');
 console.log(searchKey);
-console.log('search filter value: ' + searchKey.value);
+console.log('search filter value: ' + searchKey);
 
 ///////////////FUNCTIONS//////////////////////////
 
@@ -33,7 +33,7 @@ function searchByTitle(keyword){
     console.log(lower);
   }
 
-  console.log(searchIndexResults);
+  console.log('searchIndexResults in searchByTitle: ', searchIndexResults);
 
 }
 

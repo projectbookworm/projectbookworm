@@ -18,8 +18,8 @@ function handleEnterSubmit(e) {
     searchBar(query);
     console.log('results in handleEnterSubmit: ', results);
     console.log('resultsList handleEnterSubmit: ', resultsList);
-    saveQueryKeyPhrase(query);
-    saveSearchResultsToLocalStorage();
+    saveBarQueryKeyPhrase(query);
+    saveSearchBarResultsToLocalStorage();
     location.replace('../html/search-results.html');
   }
 }
@@ -36,12 +36,13 @@ function searchBar(query){
   });
 }
 
-function saveSearchResultsToLocalStorage(){
-  console.log('saving search results to local storage, ...');
+function saveSearchBarResultsToLocalStorage(){
+  console.log(`saving search results to local storage, ${results}`);
   localStorage.setItem('searchResult', JSON.stringify(results));
 }
 
-function saveQueryKeyPhrase(query){
+function saveBarQueryKeyPhrase(query){
   console.log('saving query keyphrase to local storage, ...');
+  console.log('query in saveQueryKeyPhrase: ', query);
   localStorage.setItem('search-query',JSON.stringify(query));
 }
