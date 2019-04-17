@@ -31,12 +31,11 @@ function searchBar(query){
       }
     }
   });
-  // results.forEach((result) => {
-  //   let resultListItem = document.createElement('li');
-  //   let resultLink = document.createElement('a');
-  //   resultLink.setAttribute('href', '#');
-  //   resultListItem.appendChild(resultLink);
-  //   resultLink.textContent = `${result.bookTitle}`;
-  //   resultsList.appendChild(resultListItem);
-  // });
 }
+
+function saveSearchResultsToLocalStorage(){
+  console.log('saving search results to local storage, ...');
+  localStorage.setItem('searchResult', JSON.stringify(results));
+}
+saveSearchResultsToLocalStorage();
+location.replace('../html/detail.html');
