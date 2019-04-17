@@ -44,13 +44,13 @@
 
 ### Developer
 
-*As a developer I want the page to accurately display the selected book so that the information on the page is what the user expects to see.
-*As a developer I eventually want to be able to tag a book as loaned so that I can track what books I have currently in my library.
+- As a developer I want the page to accurately display the selected book so that the information on the page is what the user expects to see.
+- As a developer I eventually want to be able to tag a book as loaned so that I can track what books I have currently in my library.
 
 ### User
 
-*As a user I want to see the details of the book I selected or added so that I can read about it and see the cover art.
-*As a user I want to be able to navigate away from this page to my library or to add a new book so that I can continue to use the app.
+- As a user I want to see the details of the book I selected or added so that I can read about it and see the cover art.
+- As a user I want to be able to navigate away from this page to my library or to add a new book so that I can continue to use the app.
 
 - As a user I want to be able to tag my book as loaned out when I let someone borrow it so that I don't lose track of my stuff.
 
