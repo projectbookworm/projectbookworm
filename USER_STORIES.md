@@ -1,4 +1,4 @@
-## Home Page
+## Home Page ###
 
 ## Developer
 
@@ -11,7 +11,7 @@
 - As a user I want intuitive navigation so that I don't have trouble moving around the site.
 - As a user I want the home page to pitch me the site so that I know what its about and can decide if I want to stay.
 
-## Browse Page
+## Browse Page ###
 
 ### Developer
 
@@ -25,7 +25,7 @@
 - As a user I want to be able to click on a book in my library and see the details of that book.
 - As a user I want my thumbnail library to display images of my books that are large enough to be legible so that I can clearly see the titles and cover art.
 
-## Add a Book Page
+## Add a Book Page ###
 
 ### Developer
 
@@ -40,7 +40,7 @@
 - As a user I want to see the details of the book I just entered after I submit so that I can see that it was done correctly.
 - As a user I want my details page to show me all the pertinent data about my book like author, title, isbn, and a summary of the book.
 
-## Detail Page
+## Detail Page ###
 
 ### Developer
 
@@ -54,16 +54,18 @@
 
 - As a user I want to be able to tag my book as loaned out when I let someone borrow it so that I don't lose track of my stuff.
 
-## Search Feature
+## Search Feature ###
 
 ### Developer
+
+- As a developer, I want to give the user the ability to search by a keyphrase and give a search result page that lists all possible titles that are in that search range. 
 
 ### User
 
 - As a user I want to have a feature where I can search for a particular book so that I don't have to browse my entire library to find something.
 - As a user I want to be able to filter my search according to fields (author, title, etc) so that I get a more targeted search result.
 
-## About Us Page
+## About Us Page ###
 
 ### Developer
 
@@ -72,3 +74,4 @@
 ### User
 
 - As a user I want to see who built this project so that I can contact them with issues or follow further projects.
+- As a user I want to see some background regarding the people who created the application. 
