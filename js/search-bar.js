@@ -23,11 +23,11 @@ function handleEnterSubmit(e) {
 
 function searchBar(query){
   //TODO: implement search for nav menu
-  library.forEach((book) => {
+  library.forEach((book, i) => {
     for (let key in book) {
       let lowerCaseValue = book[key].toLowerCase();
       if (query === lowerCaseValue) {
-        results.push(book);
+        results.push(i);
       }
     }
   });
