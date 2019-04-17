@@ -24,6 +24,9 @@ function populateBooks(bookArr) {
 }
 
 function bookClick(event) {
+  if (event.target.tagName === 'MAIN') {
+    return;
+  }
   for (var i = 0; i < library.length; i++) {
     if (event.target.src === library[i].imageURL) {
       localStorage.setItem('newBook', JSON.stringify(library[i]));
