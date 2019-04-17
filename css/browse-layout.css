@@ -2,8 +2,19 @@ header {
   height: 60px;
 }
 
+/* this section is to leave space for the filtering feature - stretch goal */
+section {
+  display: hidden;
+  height: 40px;
+}
+
+main {
+  width: 960px;
+  margin: 0px auto;
+}
+
 img {
-  width: 100px;
+  width: 200px;
   object-fit: scale-down;
   margin: 10px;
 }
