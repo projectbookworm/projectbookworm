@@ -78,9 +78,8 @@ function handleSearchClick(event){
   searchWithFilter(searchFilter.value, searchKey.value);
 
   saveSearchResultsToLocalStorage();
-  
+  saveQueryKeyPhrase();
   location.replace('../html/search-results.html');
-  
 }
 
 
@@ -104,6 +103,11 @@ function searchWithFilter(filter,keyword){
 function saveSearchResultsToLocalStorage(){
   console.log('saving search results to local storage, ...');
   localStorage.setItem('searchResult',JSON.stringify(searchIndexResults));
+}
+
+function saveQueryKeyPhrase(){
+  console.log('saving query keyphrase to local storage, ...');
+  localStorage.setItem('search-query',JSON.stringify(searchKey.value));
 }
 
 /////MAIN CALLS///////////////////

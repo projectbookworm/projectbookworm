@@ -50,6 +50,11 @@ main {
   height: 83vh;
 }
 
+#filter-search-section {
+  width: 960px;
+  padding-top: 30px;
+}
+
 section h2 {
   padding-top: 30px;
   font-size: 36px;
@@ -69,4 +74,8 @@ p {
 
 .quote-author {
   font-style: normal;
+}
+
+footer {
+  background-color: #ccc;
 }
