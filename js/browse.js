@@ -29,6 +29,7 @@ function bookClick(event){
       localStorage.setItem('newBook', JSON.stringify(library[i]));
     }
   }
+  window.location.href ='../html/detail.html';
 }
 var page = document.getElementById('bookThumbnails');
 page.addEventListener('click', bookClick);
