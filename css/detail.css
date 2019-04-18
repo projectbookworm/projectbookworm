@@ -1,19 +1,70 @@
-.title{
-  width:65%;
-  float:right;
-  text-align: left;
-}
-h3{
- text-align: left;
- width:60%;
-}
+
 img{
-  width:30%;
+  width:300px;
   float:left;
 }
-
-footer{
-position: absolute;
-bottom:0;
-width: 100%;
+.section-main{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+#feature{
+  width: 100%;
+  margin-top: 43px;
+  margin-bottom: 30px;
+  
+}
+#fix{
+  width: 600px;
+  margin-top: 10px;
+  font-size: 18px;
+  
+}
+#sum{
+  font-style: italic;
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.titleHead, .titleName{
+  display: inline;
+  font-size: 25px;
+}
+.titleHead{
+  font-weight: bold;
+}
+.authorHead, .authorName{
+  display: inline;
+  font-size: 25px;
+}
+.authorHead{
+  font-weight: bold;
+}
+.isbnHead, .isbnNo{
+  display: inline;
+  font-size: 22px;
+}
+.isbnHead{
+  font-weight: bold;
+}
+#authorSpace{
+  margin-top: 15px;
+  text-align: left;
+  margin-left: 20px;
+}
+#isbnSpace{
+  margin-top: 15px;
+  text-align: left;
+  margin-left: 20px;
+}
+.alignTitle{
+  text-align: left;
+  margin-left: 20px;
+}
+#bookSummary{
+  font-size: 20px;
+  height: 100px;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+  width:960;
 }
