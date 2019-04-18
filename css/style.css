@@ -18,7 +18,7 @@
   background-attachment: fixed;
 }
 
-#logo-title {
+.logo-title {
   font-family: 'Gloria Hallelujah', cursive;
   font-size: 50px;
   font-weight: bold;
@@ -42,8 +42,8 @@
 
 
 .inner-bg {
-  height: 60px;
-  background-color: #3477A6;
+  height: 100px;
+  background-color: #98AB9B;
   margin-bottom: 30px;
 }
 
@@ -98,16 +98,58 @@ nav {
   height: 83vh;
 }
 
+#search-filter-submit {
+  background-color: #98AB9B;
+  color: #ffffff;
+  padding: 10px 24px;
+  font-size: 14px;
+  border-radius: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  box-shadow: 2px 4px 10px rgb(172, 172, 172);
+  border: none;
+  margin: 15px;
+}
+
+#keyphrase-filter {
+  padding: 10px 24px;
+  font-size: 14px;
+  border-radius: 25px;
+}
+
 #filter-search-section {
   width: 960px;
   padding-top: 30px;
-  height: 50vh;
+  height: 200px;
+}
+
+#homepage-filter-search {
+  border:1px solid #555;
+  padding: 35px;
+  border-radius: 5px;
+  width: 800px;
+  margin: 0 auto;
+}
+
+option {
+  font-size: 24px;
+}
+
+form {
+  font-family: 'Montserrat', sans-serif;
+}
+
+legend {
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
 }
 
 section h2 {
-  padding-top: 30px;
+  padding-top: 10px;
   font-size: 50px;
   margin-bottom: 30px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 p {
@@ -117,11 +159,11 @@ p {
 #quotes li {
   list-style-type: none;
   padding: 30px;
-  font-family: 'Aref Ruqaa', serif;
+  font-family: 'Montserrat', sans-serif;
   line-height: 32px;
   font-style: italic;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
 }
 
 li span {
@@ -133,5 +175,7 @@ li span {
 }
 
 footer {
-  background-color: #3477A6;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #ffffff;
+  background-color: #98AB9B;
 }

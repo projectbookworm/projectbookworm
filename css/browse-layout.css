@@ -7,14 +7,14 @@ header {
 }
 
 body {
-  background-image: url(../images/browse-page.jpg);
+  background-image: url(../images/library.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 main {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0);
   width: 960px;
   height: 100vh;
   overflow: auto;
