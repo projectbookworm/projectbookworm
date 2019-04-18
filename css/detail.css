@@ -3,18 +3,13 @@ img{
   width:300px;
   float:left;
 }
-footer{
-position: absolute;
-bottom:0;
-width: 100%;
-}
 .section-main{
   margin-top: 50px;
   display: flex;
   flex-direction: row;
 }
 #feature{
-  width: 960px;
+  width: 100%;
   margin-top: 43px;
   margin-bottom: 30px;
   
@@ -68,7 +63,8 @@ width: 100%;
 }
 #bookSummary{
   font-size: 20px;
-  height: 150px;
+  height: 100px;
   overflow-y: scroll;
   margin-bottom: 20px;
+  width:960;
 }
