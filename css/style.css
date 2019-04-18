@@ -5,6 +5,9 @@
   margin: 0 auto;
   text-align: center;
 }
+body {
+  background-color: #f9f8ef;
+}
 
 #home-bg {
   height: 100vh;
@@ -87,6 +90,7 @@ nav {
   margin-right: 10px;
   font-size: 15px;
   text-transform: uppercase;
+  border: none;
 }
 
 #home-main {
@@ -114,6 +118,7 @@ nav {
   padding: 10px 24px;
   font-size: 14px;
   border-radius: 25px;
+  border: .5px solid rgb(172, 172, 172);
 }
 
 #filter-search-section {
