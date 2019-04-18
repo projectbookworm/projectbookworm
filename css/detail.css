@@ -2,11 +2,18 @@
 img{
   width:300px;
   float:left;
+  box-shadow: 2px 4px 10px rgb(172, 172, 172);
+}
+
+main {
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
 }
 .section-main{
   margin-top: 50px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 #feature{
   width: 98%; 
@@ -25,6 +32,7 @@ img{
   padding: 0%;
   margin-left: 18px;
   width: 50px;
+  height: 15px;
   margin-top: 20px;
 }
 .titleHead, .titleName{
@@ -66,6 +74,10 @@ img{
   text-align: left;
   margin-left: 20px;
 }
+
+#book-info p {
+  font-size: 16px;
+}
 #bookSummary{
   font-size: 20px;
   height: 300px;
@@ -75,7 +87,8 @@ img{
   width:500;
   padding: 0%;
   text-align: justify;
-  margin-left: 22px;
+  margin-left: 18px;
+  line-height: 30px;
 }
 #button{
   margin-top: 10px;
