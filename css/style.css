@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Aref+Ruqaa:400,700|Gloria+Hallelujah|Josefin+Slab|Montserrat:100,100i,200,200i,300,300i,400');
+
+
 * {
   margin: 0 auto;
   text-align: center;
@@ -13,6 +16,12 @@
   margin-bottom: 60px;
 }
 
+#logo-title {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 50px;
+  font-weight: bold;
+}
+
 .inner-bg {
   height: 60px;
   background-color: #3477A6;
@@ -22,25 +31,42 @@
 header h1 {
   float: left;
   margin-top: 15px;
-  margin-left: 15px;
+  margin-left: 30px;
   margin-bottom: 15px;
 }
 
 #nav-list li {
   list-style-type: none;
   display: inline;
-  padding: 15px;
+  padding: 15px 5px 15px 5px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+li a:hover {
+  background-color: rgba(147, 77, 70 , .7);
+  color: #ffffff;
 }
 
 a {
   color: #ffffff;
   text-decoration: none;
+  padding: 15px;
+  border-radius: 15px;
 }
 
 nav {
   float: right;
-  margin-top: 25px;
+  margin-top: 36px;
   margin-right: 15px;
+}
+
+#search {
+  border-radius: 15px;
+  padding:  2px 16px;
+  margin-right: 10px;
+  font-size: 15px;
+  text-transform: uppercase;
 }
 
 #home-main {
@@ -58,7 +84,7 @@ nav {
 
 section h2 {
   padding-top: 30px;
-  font-size: 36px;
+  font-size: 50px;
   margin-bottom: 30px;
 }
 
@@ -69,8 +95,15 @@ p {
 #quotes li {
   list-style-type: none;
   padding: 30px;
+  font-family: 'Aref Ruqaa', serif;
+  line-height: 32px;
   font-style: italic;
+  font-weight: 400;
   font-size: 24px;
+}
+
+li span {
+  font-weight: 700;
 }
 
 .quote-author {
