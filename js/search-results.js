@@ -2,20 +2,18 @@
 
 let searchResult;
 let query;
-// let resultsList = document.getElementById('search-results');
+
 resultsList.addEventListener('click', bookClick);
 
 function getSearchResults() {
   searchResult = JSON.parse(localStorage.getItem('searchResult'));
   query = JSON.parse(localStorage.getItem('search-query'));
-  console.log('searchResult from localStorage: ', searchResult);
 }
 
 function displaySearchResults() {
   let queryTitle = document.getElementById('search-results-title');
-  queryTitle.textContent = `Search results for "${query}"...` ;
-  searchResult.forEach((result) => {
-    console.table('book from index in displaySearchResults: ', library[result]);
+  queryTitle.textContent = `Search results for "${query}"...`;
+  searchResult.forEach(result => {
     let resultListItem = document.createElement('li');
 
     let resultImg = document.createElement('IMG');
@@ -35,9 +33,6 @@ function displaySearchResults() {
 }
 
 function bookClick(event) {
-  // if (event.target.tagName === 'MAIN') {
-  //   return;
-  // }
   for (var i = 0; i < library.length; i++) {
     if (event.target.src === library[i].imageURL) {
       localStorage.setItem('newBook', JSON.stringify(library[i]));
