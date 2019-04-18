@@ -2,6 +2,7 @@
 
 //basic variables needed for this page->js
 var saveSubmit = document.getElementById('submit');
+var addBookFormDiv = document.getElementById('form-div');
 
 function validateText(text) {//this is a simple boolean check if null/empty... at least just this for now
   if (text === '' || text === null) {
@@ -9,6 +10,15 @@ function validateText(text) {//this is a simple boolean check if null/empty... a
   }else{
     return true;
   }
+}
+
+function showBookStackClip(){
+  var bookStackClip = document.createElement('IMG');
+  bookStackClip.setAttribute('src','https://media.giphy.com/media/xVlfWHeeEBo2lPLTPC/source.gif');
+  bookStackClip.setAttribute('width','600px');
+  addBookFormDiv.innerHTML = '';
+  addBookFormDiv.appendChild(bookStackClip);
+  window.sleep(2);
 }
 
 function addABook(event){
@@ -43,6 +53,7 @@ function addABook(event){
     localStorage.setItem('newBook',JSON.stringify(newBook));
     console.table(localStorage.getItem('newBook'));
 
+    showBookStackClip();
     location.replace('../html/detail.html');
 
 

@@ -17,6 +17,10 @@
   background-size: cover;
 }
 
+#bookstack-clip {
+  background-image: url('https://media.giphy.com/media/xVlfWHeeEBo2lPLTPC/source.gif');
+}
+
 #main-add-a-book {
   width: 100%;
 }
