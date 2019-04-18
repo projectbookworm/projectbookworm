@@ -2,14 +2,22 @@ header {
   height: 60px;
 }
 
-/* this section is to leave space for the filtering feature - stretch goal */
-section {
-  display: hidden;
-  height: 40px;
+.inner-bg {
+  margin-bottom: 0px;
+}
+
+body {
+  background-image: url(../images/browse-page.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 main {
+  background-color: rgba(0, 0, 0, 0.6);
   width: 960px;
+  height: 100vh;
+  overflow: auto;
   margin: 0px auto;
 }
 
