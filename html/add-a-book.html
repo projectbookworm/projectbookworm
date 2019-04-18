@@ -23,10 +23,11 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <h1>Add A Book</h1>
-      <form id="book">
+    <main id="main-add-a-book">
+      <div class="parallax">
+        <form id="book">
         <fieldset>
+        <h1 id="h1-add-a-book">Add A Book</h1>
           <label>
             <span>Title</span>
             <input id="bookTitle" type="text" />
@@ -47,9 +48,10 @@
             <span>Description</span>
             <textarea id="description" rows="7" cols="50"> </textarea>
           </label>
-          <input type="submit" id="submit" value="Save" />
+          <button id="submit"><span>Save </span></button>
         </fieldset>
-      </form>
+        </form>
+      </div>
     </main>
     <footer>
       <p>Bookworm &copy; 2019</p>
