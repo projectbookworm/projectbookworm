@@ -2,10 +2,11 @@ header {
   height: 60px;
 }
 
-img{
-  width:20%;
+img {
+  width: 20%;
 }
-p{
-  float:right;
-  width:75%;
+
+p {
+  float: right;
+  width: 75%;
 }
