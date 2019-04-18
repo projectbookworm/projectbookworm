@@ -17,13 +17,14 @@ function showBookStackClip(){
   bookStackClip.setAttribute('src','https://media.giphy.com/media/xVlfWHeeEBo2lPLTPC/source.gif');
   bookStackClip.setAttribute('width','600px');
   bookStackClip.style.backgroundColor = 'rgb(255,255,255)';
-  bookStackClip.style.padding = '30px 440px 80px 440px';
+  bookStackClip.style.padding = '0px 440px 80px 440px';
 
   var addingBookH2 = document.createElement('h1');
   addingBookH2.textContent = 'Adding to your shelf . . . ';
   addingBookH2.style.backgroundColor = 'rgb(255,255,255)';
   addingBookH2.style.fontFamily = 'Gloria Hallelujah', 'cursive';
   addingBookH2.style.fontSize = '2em';
+  addingBookH2.style.paddingTop = '40px';
   addBookFormDiv.innerHTML = '';
   addBookFormDiv.appendChild(addingBookH2);
   addBookFormDiv.appendChild(bookStackClip);
