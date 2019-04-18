@@ -16,9 +16,16 @@ function showBookStackClip(){
   var bookStackClip = document.createElement('IMG');
   bookStackClip.setAttribute('src','https://media.giphy.com/media/xVlfWHeeEBo2lPLTPC/source.gif');
   bookStackClip.setAttribute('width','600px');
+  bookStackClip.style.backgroundColor = 'rgb(255,255,255)	';
+  bookStackClip.style.padding = '80px 440px 100px 440px';
   addBookFormDiv.innerHTML = '';
   addBookFormDiv.appendChild(bookStackClip);
-  window.sleep(2);
+  addBookFormDiv.style.zIndex = '3';
+  setTimeout(goToDetailsPage,3000);
+}
+
+function goToDetailsPage(){
+  location.replace('../html/detail.html');
 }
 
 function addABook(event){
@@ -38,25 +45,17 @@ function addABook(event){
   let checkDescription = validateText(description);
 
   if(checkBookTitle && checkAuthor && checkISBN13 && checkImageURL && checkDescription){
+    
     var newBook = new Book(bookTitle,author,isbn13,imageURL,description);
-    setLocalStorageData();
-    console.log('Library Table:');
-    console.table(library);
-    console.log('LocalStorage Books:');
-    console.table(localStorage.getItem('books'));
 
+    setLocalStorageData();
     getLocalStorageData();
-    console.log('LocalStorage Books in Library Array:');
     console.table(library);
 
     //store the new book to localstorage in individual key for easy access
     localStorage.setItem('newBook',JSON.stringify(newBook));
-    console.table(localStorage.getItem('newBook'));
 
     showBookStackClip();
-    location.replace('../html/detail.html');
-
-
   }
   else{
     alert('Invalid or Empty Data entered in field(s)');
@@ -65,6 +64,5 @@ function addABook(event){
 }//end of function addBook()
 
 ///////EVENT LISTENER//////////////////////////
-// saveSubmit.addEventListener('submit',addABook);
 saveSubmit.addEventListener('click',addABook);
 

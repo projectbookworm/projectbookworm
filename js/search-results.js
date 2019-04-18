@@ -27,7 +27,7 @@ function displaySearchResults() {
     resultListItem.appendChild(resultTitle);
 
     let resultAuthor = document.createElement('h3');
-    resultAuthor.textContent = library[result].author;
+    resultAuthor.textContent = `by ${library[result].author}`;
     resultListItem.appendChild(resultAuthor);
 
     resultsList.appendChild(resultListItem);
