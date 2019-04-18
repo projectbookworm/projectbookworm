@@ -101,19 +101,20 @@ nav {
 #search-filter-submit {
   background-color: #98AB9B;
   color: #ffffff;
-  padding: 12px 24px;
+  padding: 10px 24px;
   font-size: 14px;
   border-radius: 20px;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
-  box-shadow: 2px 4px 10px grey;
+  box-shadow: 2px 4px 10px rgb(172, 172, 172);
   border: none;
   margin: 15px;
 }
 
 #keyphrase-filter {
-  padding: 12px 24px;
+  padding: 10px 24px;
   font-size: 14px;
+  border-radius: 25px;
 }
 
 #filter-search-section {
