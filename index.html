@@ -23,32 +23,33 @@
     <main>
       <section id="quote-container">
         <h2>Author Quotes</h2>
-          <ul id="quotes"></ul>
+        <ul id="quotes"></ul>
       </section>
     </main>
     <footer>
-        <section id="filter-search-section">
-            <form id="book">
-              <fieldset>
-                <legend>Filter Search</legend>
-                <label>
-                  <span>Search By:</span>
-                  <select id="search-filter">
-                    <option value="title">Title</option>
-                    <option value="author">Author</option>
-                    <option value="isbn13">ISBN-13</option>
-                  </select>
-                </label>
-                <label>
-                  <span>Keyword(s):</span>
-                  <input id="keyphrase-filter" type="text" />
-                </label>
-                <input type="submit" id="search-filter-submit" value="Search" />
-              </fieldset>
-            </form>
-          </section>
+      <section id="filter-search-section">
+        <form id="book">
+          <fieldset>
+            <legend>Filter Search</legend>
+            <label>
+              <span>Search By:</span>
+              <select id="search-filter">
+                <option value="title">Title</option>
+                <option value="author">Author</option>
+                <option value="isbn13">ISBN-13</option>
+              </select>
+            </label>
+            <label>
+              <span>Keyword(s):</span>
+              <input id="keyphrase-filter" type="text" />
+            </label>
+            <input type="submit" id="search-filter-submit" value="Search" />
+          </fieldset>
+        </form>
+      </section>
       <p>Bookworm &copy; 2019</p>
     </footer>
+    <script src="./js/data.js"></script>
     <script src="./js/app.js"></script>
     <script src="./js/quotes.js"></script>
     <script src="./js/search-bar.js"></script>
