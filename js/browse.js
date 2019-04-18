@@ -37,5 +37,7 @@ function bookClick(event) {
 var page = document.getElementById('bookThumbnails');
 page.addEventListener('click', bookClick);
 
-library = JSON.parse(localStorage.books);
-populateBooks(library);
+if (localStorage.books) {
+  library = JSON.parse(localStorage.books);
+  populateBooks(library);
+}
