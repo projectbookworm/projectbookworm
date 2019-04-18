@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css"  href="../css/style.css">
     <link rel="stylesheet" type="text/css"  href="../css/reset.css">
+    <link rel="stylesheet" type="text/css"  href="../css/style.css">
     <title>Home - Project Bookworm</title>
   </head>
   <body>
     <header id="home-bg">
-      <h1><a href="index.html">Bookworm</a></h1>
+      <h1 id="logo-title"><a href="index.html">Bookworm</a></h1>
       <nav>
         <ul id="nav-list">
           <li><a href="../html/browse.html">Browse</a></li>
@@ -19,36 +19,40 @@
           <li><input id="search" type="text" placeholder="Search..." /></li>
         </ul>
       </nav>
+      <div>
+        <h2 class="hero-text">Welcome to your <span>Personal Library</span></h2>
+      </div>
     </header>
-    <main>
+    <main id="home-main">
+      <section id="filter-search-section">
+          <form id="book">
+            <fieldset>
+              <legend>Filter Search</legend>
+              <label>
+                <span>Search By:</span>
+                <select id="search-filter">
+                  <option value="title">Title</option>
+                  <option value="author">Author</option>
+                  <option value="isbn13">ISBN-13</option>
+                </select>
+              </label>
+              <label>
+                <span>Keyword(s):</span>
+                <input id="keyphrase-filter" type="text" />
+              </label>
+              <input type="submit" id="search-filter-submit" value="Search" />
+            </fieldset>
+          </form>
+        </section>
       <section id="quote-container">
         <h2>Author Quotes</h2>
-          <ul id="quotes"></ul>
+        <ul id="quotes"></ul>
       </section>
     </main>
     <footer>
-        <section id="filter-search-section">
-            <form id="book">
-              <fieldset>
-                <legend>Filter Search</legend>
-                <label>
-                  <span>Search By:</span>
-                  <select id="search-filter">
-                    <option value="title">Title</option>
-                    <option value="author">Author</option>
-                    <option value="isbn13">ISBN-13</option>
-                  </select>
-                </label>
-                <label>
-                  <span>Keyword(s):</span>
-                  <input id="keyphrase-filter" type="text" />
-                </label>
-                <input type="submit" id="search-filter-submit" value="Search" />
-              </fieldset>
-            </form>
-          </section>
       <p>Bookworm &copy; 2019</p>
     </footer>
+    <script src="./js/data.js"></script>
     <script src="./js/app.js"></script>
     <script src="./js/quotes.js"></script>
     <script src="./js/search-bar.js"></script>
