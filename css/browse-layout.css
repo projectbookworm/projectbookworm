@@ -7,7 +7,7 @@ header {
 }
 
 body {
-  background-image: url(../images/library.jpg);
+  background-image: url(../images/books.jpg);
   height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -15,14 +15,14 @@ body {
 
 main {
   background-color: rgba(0, 0, 0, 0);
-  width: 960px;
+  width: 1020px;
   height: 100vh;
   overflow: auto;
   margin: 0px auto;
 }
 
 img {
-  height: 400px;
+  height: 340px;
   object-fit: scale-down;
   margin: 10px;
 }
