@@ -5,11 +5,11 @@ var bookTitle = document.getElementById('bookTitle');
 var bookAuthor = document.getElementById('bookAuthor');
 var bookIsbn = document.getElementById('bookIsbn');
 var bookSummary = document.getElementById('bookSummary');
-// get  detail of the selected book from the local Storage
+// get the selected book from local Storage
 var bookDetail = localStorage.getItem('newBook');
 var bookValue = JSON.parse(bookDetail);
 
-// display in the detail page
+// display book data in the detail page
 bookCover.src = bookValue.imageURL;
 bookTitle.textContent = bookValue.bookTitle;
 bookAuthor.textContent = bookValue.author;

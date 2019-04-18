@@ -1,5 +1,4 @@
 let quotesList = document.getElementById('quotes');
-console.log(quotesList);
 
 staticQuotesData = [
   {
@@ -53,7 +52,7 @@ function displayQuotes(quotesArr) {
     }
   }
 
-  quotesDisplay.forEach((quote) => {
+  quotesDisplay.forEach(quote => {
     let quoteListItem = document.createElement('li');
     quoteListItem.textContent = `"${quote.text}"`;
     let quoteAuthor = document.createElement('span');
@@ -62,8 +61,6 @@ function displayQuotes(quotesArr) {
 
     quoteListItem.appendChild(quoteAuthor);
     quotesList.appendChild(quoteListItem);
-
-    console.log(quoteListItem);
   });
 }
 

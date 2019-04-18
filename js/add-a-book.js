@@ -4,40 +4,43 @@
 var saveSubmit = document.getElementById('submit');
 var addBookFormDiv = document.getElementById('form-div');
 
-function validateText(text) {//this is a simple boolean check if null/empty... at least just this for now
+function validateText(text) {
+  //this is a simple boolean check if null/empty... at least just this for now
   if (text === '' || text === null) {
     return false;
-  }else{
+  } else {
     return true;
   }
 }
 
-function showBookStackClip(){
+function showBookStackClip() {
   var bookStackClip = document.createElement('IMG');
-  bookStackClip.setAttribute('src','https://media.giphy.com/media/xVlfWHeeEBo2lPLTPC/source.gif');
-  bookStackClip.setAttribute('width','600px');
+  bookStackClip.setAttribute(
+    'src',
+    'https://media.giphy.com/media/xVlfWHeeEBo2lPLTPC/source.gif'
+  );
+  bookStackClip.setAttribute('width', '600px');
   bookStackClip.style.backgroundColor = 'rgb(255,255,255)';
   bookStackClip.style.padding = '0px 440px 80px 440px';
 
   var addingBookH2 = document.createElement('h1');
   addingBookH2.textContent = 'Adding to your shelf . . . ';
   addingBookH2.style.backgroundColor = 'rgb(255,255,255)';
-  addingBookH2.style.fontFamily = 'Gloria Hallelujah', 'cursive';
+  (addingBookH2.style.fontFamily = 'Gloria Hallelujah'), 'cursive';
   addingBookH2.style.fontSize = '2em';
   addingBookH2.style.paddingTop = '40px';
   addBookFormDiv.innerHTML = '';
   addBookFormDiv.appendChild(addingBookH2);
   addBookFormDiv.appendChild(bookStackClip);
   addBookFormDiv.style.zIndex = '3';
-  setTimeout(goToDetailsPage,3000);
+  setTimeout(goToDetailsPage, 3000);
 }
 
-function goToDetailsPage(){
+function goToDetailsPage() {
   location.replace('../html/detail.html');
 }
 
-function addABook(event){
-
+function addABook(event) {
   event.preventDefault();
 
   let bookTitle = document.getElementById('bookTitle').value;
@@ -52,26 +55,27 @@ function addABook(event){
   let checkImageURL = validateText(imageURL);
   let checkDescription = validateText(description);
 
-  if(checkBookTitle && checkAuthor && checkISBN13 && checkImageURL && checkDescription){
-    
-    var newBook = new Book(bookTitle,author,isbn13,imageURL,description);
+  if (
+    checkBookTitle &&
+    checkAuthor &&
+    checkISBN13 &&
+    checkImageURL &&
+    checkDescription
+  ) {
+    var newBook = new Book(bookTitle, author, isbn13, imageURL, description);
 
     setLocalStorageData();
     getLocalStorageData();
-    console.table(library);
 
     //store the new book to localstorage in individual key for easy access
-    localStorage.setItem('newBook',JSON.stringify(newBook));
+    localStorage.setItem('newBook', JSON.stringify(newBook));
 
     showBookStackClip();
-  }
-  else{
+  } else {
     alert('Invalid or Empty Data entered in field(s)');
   }
-
-}//end of function addBook()
+} //end of function addBook()
 
 ///////EVENT LISTENER//////////////////////////
 
-saveSubmit.addEventListener('click',addABook);
-
+saveSubmit.addEventListener('click', addABook);
