@@ -4,12 +4,12 @@
   color: white;
   font-size: 3em;
   padding-bottom: 20px;
-  font-family: 'Gloria Hallelujah', cursive;
-
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
 }
 
 .parallax {
-  background-image: url('https://img.freepik.com/free-photo/wooden-table-with-blurred-background_1134-14.jpg?size=626&ext=jpg');
+  background-image: url(/images/wooden-table.jpg);
   height: 100vh;
   min-height: 500px; 
 
@@ -25,6 +25,10 @@
 
 #main-add-a-book {
   width: 100%;
+}
+
+form span {
+  text-transform: uppercase;
 }
 
 fieldset {
@@ -97,6 +101,7 @@ textarea {
   cursor: pointer;
   display: inline-block;
   position: relative;
+  text-transform: none;
   transition: 0.5s;
 }
 
@@ -120,5 +125,13 @@ textarea {
 
 #add-a-book-main {
   height: 100vh;
+}
+
+input {
+  border: none;
+}
+
+textarea {
+  border: none;
 }
 
