@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css"  href="../css/style.css">
     <link rel="stylesheet" type="text/css"  href="../css/detail.css">
+    <link rel="stylesheet" type="text/css"  href="../css/reset.css">
     <title>Detail</title>
   </head>
   <body>
@@ -13,7 +14,7 @@
           <li><a href="../html/browse.html">Browse</a></li>
           <li><a href="..html/add-a-book.html">Add A Book</a></li>
           <li><a href="..html/aboutus.html">About Us</a></li>
-          <li><input type="text" placeholder="Search..." /></li>
+          <li><input id="search" type="text" placeholder="Search..." /></li>
         </ul>
       </nav>
     </header>
@@ -27,7 +28,9 @@
     <h3>Summary:</h3>
     <p id='bookSummary' class='title'></p>
   </body>
+  <script src="../js/app.js"></script>
   <script src="../js/detail.js".></script>
+  <script src="../js/search-bar.js"></script>
   <footer>
     <p>Bookworm &copy; 2019</p>
   </footer>

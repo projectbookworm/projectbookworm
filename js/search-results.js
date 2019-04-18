@@ -2,7 +2,7 @@
 
 let searchResult;
 let query;
-let resultsList = document.getElementById('search-results');
+// let resultsList = document.getElementById('search-results');
 resultsList.addEventListener('click', bookClick);
 
 function getSearchResults() {
