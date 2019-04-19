@@ -8,18 +8,20 @@ var searchKey = document.getElementById('keyphrase-filter');
 ///////////////FUNCTIONS//////////////////////////
 
 function searchByTitle(keyword) {
+  let key = new RegExp(keyword.toLowerCase());
   for (let i = 0; i < library.length; i++) {
     let lower = library[i].bookTitle.toLowerCase();
-    if (keyword.toLowerCase() === lower) {
+    if (key.test(lower)) {
       searchIndexResults.push(i);
     }
   }
 }
 
 function searchByAuthor(keyword) {
+  let key = new RegExp(keyword.toLowerCase());
   for (let i = 0; i < library.length; i++) {
     let lower = library[i].author.toLowerCase();
-    if (keyword.toLowerCase() === lower) {
+    if (key.test(lower)) {
       searchIndexResults.push(i);
     }
   }
