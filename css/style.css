@@ -65,7 +65,7 @@ header h1 {
 }
 
 li a:hover {
-  border-bottom: 2px solid white;
+  border-bottom: 3px solid white;
   /* background-color: rgba(147, 77, 70 , .7); */
   color: #ffffff;
 }
