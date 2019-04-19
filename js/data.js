@@ -275,7 +275,7 @@ var bookData = [
     author: 'Clive Cussler',
     isbn13: ' 978-0425195451',
     imageURL:
-      ' https://images-na.ssl-images-amazon.com/images/I/51RZHxb9KTL._SX281_BO1,204,203,200_.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/51RZHxb9KTL._SX281_BO1,204,203,200_.jpg',
     description:
       " A confrontation between a radical environmentalist group and a Danish cruiser leave many survivors trapped inside a sunken ship. But when the head of NUMA Special Assignments, Kurt Austin, and his colleague, Joe Zavala, are enlisted to run the rescue operation, they uncover a far more sinister agenda on the part of the supposed environmental group. Their agency, Sentinels of the Sea, is connected to a shadowy multinational corporation with plans for controlling the world's oceans. And somebody within the company is willing to kill anyone who gets in the way."
   },
@@ -284,7 +284,7 @@ var bookData = [
     author: 'Clive Cussler',
     isbn13: '978-0425201022',
     imageURL:
-      ' https://images-na.ssl-images-amazon.com/images/I/51xJa71kn6L.jpg',
+      'https://images-na.ssl-images-amazon.com/images/I/51xJa71kn6L.jpg',
     description:
       'In the remote wastes of Greenland, a young scientist has unearthed an artifact hidden in a cave for a millennium: a 50,000 year-old radioactive meteorite known as the Sacred Stone. But the astounding find places him in the crosshairs of two opposing groups who seek the stone for themselves. One is a group of Muslim extremists who have stolen a nuclear device. With the power of the meteorite, they could vaporize any city in the west. The other group is led by a megalomaniacal industrialist who seeks to carry out the utter annihilation of Islam itself.'
   },
