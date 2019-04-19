@@ -1,11 +1,50 @@
 'use strict';
 
 //basic variables needed for this page->js
-var saveSubmit = document.getElementById('submit');
-var addBookFormDiv = document.getElementById('form-div');
+let saveSubmit = document.getElementById('submit');
+let addBookFormDiv = document.getElementById('form-div');
+
+let bookTitle = document.getElementById('bookTitle').value;
+let author = document.getElementById('author').value;
+let isbn13 = document.getElementById('isbn13').value;
+let imageURL = document.getElementById('imageURL').value;
+let description = document.getElementById('description').value;
+
+function validateBookTitle(text) {
+  let input = document.getElementById('bookTitle');
+  if (text === '' || text === null) {
+    bookTitle.setAttribute('background-color','#FFFF99');
+    return false;
+  } else {
+    return true;
+  }
+}
+
+function validateAuthor(text) {
+  if (text === '' || text === null) {
+    return false;
+  } else {
+    return true;
+  }
+}
+
+function validateISBN13(text) {
+  if (text === '' || text === null) {
+    return false;
+  } else {
+    return true;
+  }
+}
+
+function validateDescription(text) {
+  if (text === '' || text === null) {
+    return false;
+  } else {
+    return true;
+  }
+}
 
 function validateText(text) {
-  //this is a simple boolean check if null/empty... at least just this for now
   if (text === '' || text === null) {
     return false;
   } else {
@@ -43,12 +82,6 @@ function goToDetailsPage() {
 function addABook(event) {
   event.preventDefault();
 
-  let bookTitle = document.getElementById('bookTitle').value;
-  let author = document.getElementById('author').value;
-  let isbn13 = document.getElementById('isbn13').value;
-  let imageURL = document.getElementById('imageURL').value;
-  let description = document.getElementById('description').value;
-
   let checkBookTitle = validateText(bookTitle);
   let checkAuthor = validateText(author);
   let checkISBN13 = validateText(isbn13);
@@ -62,7 +95,7 @@ function addABook(event) {
     checkImageURL &&
     checkDescription
   ) {
-    var newBook = new Book(bookTitle, author, isbn13, imageURL, description);
+    let newBook = new Book(bookTitle, author, isbn13, imageURL, description);
 
     setLocalStorageData();
     getLocalStorageData();
@@ -72,7 +105,7 @@ function addABook(event) {
 
     showBookStackClip();
   } else {
-    alert('Invalid or Empty Data entered in field(s)');
+    //alert('Invalid or Empty Data entered in field(s)');
   }
 } //end of function addBook()
 

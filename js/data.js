@@ -34,7 +34,7 @@ var bookData = [
     isbn13: '978-0147515872',
     imageURL: 'https://images.penguinrandomhouse.com/cover/9780147515872',
     description:
-      "The story begins as Alice is sitting by a river bank on a summer day. As she is reading she sees over her sister's shoulder, a White Rabbit in a waistcoat running by. The White Rabbit pulls a watch out of his pocket and says that he is late."
+      'The story begins as Alice is sitting by a river bank on a summer day. As she is reading she sees over her sister\'s shoulder, a White Rabbit in a waistcoat running by. The White Rabbit pulls a watch out of his pocket and says that he is late.'
   },
   {
     bookTitle: 'Cracking the Coding Interview',
@@ -70,7 +70,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/519DACZvr2L._SX322_BO1,204,203,200_.jpg',
     description:
-      "This book is 'Villeneuve's Original Beauty and the Beast' story, first translated into English by J. R Planché. Although it contains the familiar plots and themes of more recent shortened versions of the tale, Villleneuve's original piece of story telling explores the back story of both Belle and the Beast. The Beast was a prince who lost his father at a young age, and whose mother had to wage war to defend his kingdom. Belle’s story reveals her true parentage and her life is threatened. This edition was originally published in 1858 and contains two beautiful engravings by Edward Corbould and the Brothers Dalziel. Villeneuve was a French author influenced by Madame d’Aulnoy, Charles Perrault and various female intellectuals. La Belle et La Bête was first published in 1740 published in La Jeune Américaine, et Les Contes Marins. Planché himself was a British dramatist and antiquary, chiefly responsible for introducing historically accurate costume into nineteenth century British theatre. His interest in folklore stemmed from such endeavours – and his passion for the tales as well as mastery of the French language is apparent in this text. Pook Press celebrates the great 'Golden Age of Illustration' in children's classics and fairy tales - a period of unparalleled excellence in book illustration. We publish rare and vintage Golden Age illustrated books, in high-quality colour editions, so that the masterful artwork and story-telling can continue to delight both young and old."
+      'This book is \'Villeneuve\'s Original Beauty and the Beast\' story, first translated into English by J. R Planché. Although it contains the familiar plots and themes of more recent shortened versions of the tale, Villleneuve\'s original piece of story telling explores the back story of both Belle and the Beast. The Beast was a prince who lost his father at a young age, and whose mother had to wage war to defend his kingdom. Belle’s story reveals her true parentage and her life is threatened. This edition was originally published in 1858 and contains two beautiful engravings by Edward Corbould and the Brothers Dalziel. Villeneuve was a French author influenced by Madame d’Aulnoy, Charles Perrault and various female intellectuals. La Belle et La Bête was first published in 1740 published in La Jeune Américaine, et Les Contes Marins. Planché himself was a British dramatist and antiquary, chiefly responsible for introducing historically accurate costume into nineteenth century British theatre. His interest in folklore stemmed from such endeavours – and his passion for the tales as well as mastery of the French language is apparent in this text. Pook Press celebrates the great \'Golden Age of Illustration\' in children\'s classics and fairy tales - a period of unparalleled excellence in book illustration. We publish rare and vintage Golden Age illustrated books, in high-quality colour editions, so that the masterful artwork and story-telling can continue to delight both young and old.'
   },
   {
     bookTitle: 'The Maze Runner',
@@ -97,7 +97,7 @@ var bookData = [
     imageURL:
       'https://upload.wikimedia.org/wikipedia/en/3/39/AClashOfKings.jpg',
     description:
-      "A Clash of Kings depicts the Seven Kingdoms of Westeros in civil war, while the Night's Watch mounts a reconnaissance to investigate the mysterious people known as wildlings. Meanwhile, Daenerys Targaryen continues her plan to reconquer the Seven Kingdoms."
+      'A Clash of Kings depicts the Seven Kingdoms of Westeros in civil war, while the Night\'s Watch mounts a reconnaissance to investigate the mysterious people known as wildlings. Meanwhile, Daenerys Targaryen continues her plan to reconquer the Seven Kingdoms.'
   },
   {
     bookTitle: 'A Storm of Swords',
@@ -115,7 +115,7 @@ var bookData = [
     imageURL:
       'https://upload.wikimedia.org/wikipedia/en/a/a3/AFeastForCrows.jpg',
     description:
-      "The War of the Five Kings is slowly coming to its end. Stannis Baratheon has gone to the aid of the Wall, where Jon Snow has become the 998th Lord Commander of the Night's Watch. King Tommen Baratheon, Joffrey's eight-year-old brother, now rules in King's Landing under his mother, Cersei Lannister. Brienne, the Maid of Tarth, is on a mission to find Sansa Stark, aided by Jaime Lannister. Sansa is hiding in the Vale, protected by Petyr Baelish, who has murdered his wife Lysa Arryn and named himself Protector of the Vale and guardian of eight-year-old Lord Robert Arryn."
+      'The War of the Five Kings is slowly coming to its end. Stannis Baratheon has gone to the aid of the Wall, where Jon Snow has become the 998th Lord Commander of the Night\'s Watch. King Tommen Baratheon, Joffrey\'s eight-year-old brother, now rules in King\'s Landing under his mother, Cersei Lannister. Brienne, the Maid of Tarth, is on a mission to find Sansa Stark, aided by Jaime Lannister. Sansa is hiding in the Vale, protected by Petyr Baelish, who has murdered his wife Lysa Arryn and named himself Protector of the Vale and guardian of eight-year-old Lord Robert Arryn.'
   },
   {
     bookTitle: 'A Dance with Dragons',
@@ -124,7 +124,7 @@ var bookData = [
     imageURL:
       'https://upload.wikimedia.org/wikipedia/en/5/5d/A_Dance_With_Dragons_US.jpg',
     description:
-      "A Dance with Dragons picks up where A Storm of Swords leaves off and runs simultaneously with events in A Feast for Crows. The War of the Five Kings seems to be winding down. In the North, King Stannis Baratheon has installed himself at the Wall and vowed to win the support of the northmen to continue his struggle to claim the Iron Throne, although this is complicated by the fact that much of the west coast is under occupation by the ironborn. On the Wall itself Jon Snow has been elected the 998th Lord Commander of the Night's Watch, but has enemies both in the Watch and beyond the Wall. Tyrion Lannister has been taken by ship across the Narrow Sea to Pentos, but his eventual goals are unknown even to him. On Slaver's Bay, Daenerys Targaryen has conquered the city of Meereen, and has decided to stay and rule the city, honing her skills of leadership which will be needed when she travels on to Westeros. But Daenerys' presence is now known to many in Westeros, and from the Iron Islands and Dorne, from Oldtown and the Free Cities, emissaries are on their way to find her and use her cause for their own ends..."
+      'A Dance with Dragons picks up where A Storm of Swords leaves off and runs simultaneously with events in A Feast for Crows. The War of the Five Kings seems to be winding down. In the North, King Stannis Baratheon has installed himself at the Wall and vowed to win the support of the northmen to continue his struggle to claim the Iron Throne, although this is complicated by the fact that much of the west coast is under occupation by the ironborn. On the Wall itself Jon Snow has been elected the 998th Lord Commander of the Night\'s Watch, but has enemies both in the Watch and beyond the Wall. Tyrion Lannister has been taken by ship across the Narrow Sea to Pentos, but his eventual goals are unknown even to him. On Slaver\'s Bay, Daenerys Targaryen has conquered the city of Meereen, and has decided to stay and rule the city, honing her skills of leadership which will be needed when she travels on to Westeros. But Daenerys\' presence is now known to many in Westeros, and from the Iron Islands and Dorne, from Oldtown and the Free Cities, emissaries are on their way to find her and use her cause for their own ends...'
   },
   {
     bookTitle: 'The Scorch Trials',
@@ -172,7 +172,7 @@ var bookData = [
       'In the 2040s, the world has been gripped by an energy crisis from the depletion of fossil fuels and the consequences of global warming and overpopulation, causing widespread social problems and economic stagnation. To escape the decline their world is facing, people turn to the OASIS, a virtual reality simulator accessible by players using visors and haptic technology such as gloves. It functions both as an MMORPG and as a virtual world, with its currency being the most stable in the real world. It was created by James Halliday who, when he died, had announced in his will to the public that he had left an Easter egg inside OASIS, and the first person to find it would inherit his entire fortune and the corporation. The story follows the adventures of Wade Watts, starting about five years after the announcement, when he discovers one of the three keys which unlock three successive gates leading to the treasure.'
   },
   {
-    bookTitle: "Ender's Game",
+    bookTitle: 'Ender\'s Game',
     author: 'Orson Scott Card',
     isbn13: '0-312-93208-1',
     imageURL:
@@ -196,7 +196,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/414rRyIJsDL._SX328_BO1,204,203,200_.jpg',
     description:
-      "The third book in Suzanne Collins's phenomenal and worldwide bestselling Hunger Games trilogy is now available in paperback. 'My name is Katniss Everdeen. Why am I not dead? I should be dead.' Katniss Everdeen, girl on fire, has survived, even though her home has been destroyed. There are rebels. There are new leaders. A revolution is unfolding. District 13 has come out of the shadows and is plotting to overthrow the Capitol. Though she's long been a part of the revolution, Katniss hasn't known it. Now it seems that everyone has had a hand in the carefully laid plans but her. The success of the rebellion hinges on Katniss's willingness to be a pawn, to accept responsibility for countless lives, and to change the course of the future of Panem. To do this, she must put aside her feelings of anger and distrust. She must become the rebels' Mockingjay - no matter what the cost."
+      'The third book in Suzanne Collins\'s phenomenal and worldwide bestselling Hunger Games trilogy is now available in paperback. \'My name is Katniss Everdeen. Why am I not dead? I should be dead.\' Katniss Everdeen, girl on fire, has survived, even though her home has been destroyed. There are rebels. There are new leaders. A revolution is unfolding. District 13 has come out of the shadows and is plotting to overthrow the Capitol. Though she\'s long been a part of the revolution, Katniss hasn\'t known it. Now it seems that everyone has had a hand in the carefully laid plans but her. The success of the rebellion hinges on Katniss\'s willingness to be a pawn, to accept responsibility for countless lives, and to change the course of the future of Panem. To do this, she must put aside her feelings of anger and distrust. She must become the rebels\' Mockingjay - no matter what the cost.'
   },
   {
     bookTitle: 'Ordeal By Innocence',
@@ -214,7 +214,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/412lZH%2BKsxL._SX331_BO1,204,203,200_.jpg',
     description:
-      "'It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.' Thus memorably begins Jane Austen's Pride and Prejudice, one of the world's most popular novels. Pride and Prejudice--Austen's own 'darling child'--tells the story of fiercely independent Elizabeth Bennett, one of five sisters who must marry rich, as she confounds the arrogant, wealthy Mr. Darcy. What ensues is one of the most delightful and engrossingly readable courtships known to literature, written by a precocious Austen when she was just twenty-one years old."
+      '\'It is a truth universally acknowledged, that a single man in possession of a good fortune must be in want of a wife.\' Thus memorably begins Jane Austen\'s Pride and Prejudice, one of the world\'s most popular novels. Pride and Prejudice--Austen\'s own \'darling child\'--tells the story of fiercely independent Elizabeth Bennett, one of five sisters who must marry rich, as she confounds the arrogant, wealthy Mr. Darcy. What ensues is one of the most delightful and engrossingly readable courtships known to literature, written by a precocious Austen when she was just twenty-one years old.'
   },
   {
     bookTitle: 'Code Complete',
@@ -241,7 +241,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/41p3IT0dVzL._SX298_BO1,204,203,200_.jpg',
     description:
-      "Whether you're an application developer, database administrator, web application designer, mobile app developer, or Microsoft Office users, a good working knowledge of SQL is an important part of interacting with databases. And Sams Teach Yourself SQL in 10 Minutes offers the straightforward, practical answers you need to help you do your job. Expert trainer and popular author Ben Forta teaches you just the parts of SQL you need to know–starting with simple data retrieval and quickly going on to more complex topics including the use of joins, subqueries, stored procedures, cursors, triggers, and table constraints. You'll learn methodically, systematically, and simply–in 22 short, quick lessons that will each take only 10 minutes or less to complete. With the Fourth Edition of this worldwide bestseller, the book has been thoroughly updated, expanded, and improved. Lessons now cover the latest versions of IBM DB2, Microsoft Access, Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite, MariaDB, and Apache Open Office Base. And new full-color SQL code listings help the beginner clearly see the elements and structure of the language."
+      'Whether you\'re an application developer, database administrator, web application designer, mobile app developer, or Microsoft Office users, a good working knowledge of SQL is an important part of interacting with databases. And Sams Teach Yourself SQL in 10 Minutes offers the straightforward, practical answers you need to help you do your job. Expert trainer and popular author Ben Forta teaches you just the parts of SQL you need to know–starting with simple data retrieval and quickly going on to more complex topics including the use of joins, subqueries, stored procedures, cursors, triggers, and table constraints. You\'ll learn methodically, systematically, and simply–in 22 short, quick lessons that will each take only 10 minutes or less to complete. With the Fourth Edition of this worldwide bestseller, the book has been thoroughly updated, expanded, and improved. Lessons now cover the latest versions of IBM DB2, Microsoft Access, Microsoft SQL Server, MySQL, Oracle, PostgreSQL, SQLite, MariaDB, and Apache Open Office Base. And new full-color SQL code listings help the beginner clearly see the elements and structure of the language.'
   },
   {
     bookTitle: 'Looking For Alaska',
@@ -277,7 +277,7 @@ var bookData = [
     imageURL:
       ' https://images-na.ssl-images-amazon.com/images/I/51RZHxb9KTL._SX281_BO1,204,203,200_.jpg',
     description:
-      " A confrontation between a radical environmentalist group and a Danish cruiser leave many survivors trapped inside a sunken ship. But when the head of NUMA Special Assignments, Kurt Austin, and his colleague, Joe Zavala, are enlisted to run the rescue operation, they uncover a far more sinister agenda on the part of the supposed environmental group. Their agency, Sentinels of the Sea, is connected to a shadowy multinational corporation with plans for controlling the world's oceans. And somebody within the company is willing to kill anyone who gets in the way."
+      ' A confrontation between a radical environmentalist group and a Danish cruiser leave many survivors trapped inside a sunken ship. But when the head of NUMA Special Assignments, Kurt Austin, and his colleague, Joe Zavala, are enlisted to run the rescue operation, they uncover a far more sinister agenda on the part of the supposed environmental group. Their agency, Sentinels of the Sea, is connected to a shadowy multinational corporation with plans for controlling the world\'s oceans. And somebody within the company is willing to kill anyone who gets in the way.'
   },
   {
     bookTitle: 'Sacred Stone',
@@ -295,7 +295,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/41znHkOb%2BNL._BO1,204,203,200_.jpg',
     description:
-      "Stranded on the Sahara desert, Dirk Pitt and his friends uncover the truth about the fate of 1930s aviator Kitty Mannock and the secret behind Lincoln's assassination."
+      'Stranded on the Sahara desert, Dirk Pitt and his friends uncover the truth about the fate of 1930s aviator Kitty Mannock and the secret behind Lincoln\'s assassination.'
   },
   {
     bookTitle: 'Treasure of Khan',
@@ -304,7 +304,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/51ExEyNbWYL._SX342_.jpg',
     description:
-      "When Dirk Pitt is nearly killed rescuing an oil survey team from a freak wave on Russia's Lake Baikal, it appears a simple act of nature. But when the survey team is abducted and Pitt's research vessel nearly sunk, it becomes clear this is no run of bad luck, but the influence of something, or someone, more sinister. In fact, Pitt and the NUMA crew have inadvertently stepped between a Mongolian tycoon and his plans to corner the global oil market, beginning with covert negotiations in China. To ensure the deal goes through, this mysterious businessman will encourage ever-escalating acts of sabotage and violence. Pitt and Giordino soon learn the magnate's fury and his power both stem from the same source: a dark secret about Genghis Khan, the greatest conqueror the world has ever known. To Pitt and Giordino the famed Khan's empire is nearly the stuff of legend and his tomb a forgotten mystery. But the Khan's legacy is very real. And it's the treasure of his grandson Kublai Khan that holds the key to stopping this modern-day oil baron from restoring the conquests of his ancestors. That is, if Pitt and Giordino get there first...."
+      'When Dirk Pitt is nearly killed rescuing an oil survey team from a freak wave on Russia\'s Lake Baikal, it appears a simple act of nature. But when the survey team is abducted and Pitt\'s research vessel nearly sunk, it becomes clear this is no run of bad luck, but the influence of something, or someone, more sinister. In fact, Pitt and the NUMA crew have inadvertently stepped between a Mongolian tycoon and his plans to corner the global oil market, beginning with covert negotiations in China. To ensure the deal goes through, this mysterious businessman will encourage ever-escalating acts of sabotage and violence. Pitt and Giordino soon learn the magnate\'s fury and his power both stem from the same source: a dark secret about Genghis Khan, the greatest conqueror the world has ever known. To Pitt and Giordino the famed Khan\'s empire is nearly the stuff of legend and his tomb a forgotten mystery. But the Khan\'s legacy is very real. And it\'s the treasure of his grandson Kublai Khan that holds the key to stopping this modern-day oil baron from restoring the conquests of his ancestors. That is, if Pitt and Giordino get there first....'
   },
   {
     bookTitle: 'Celtic Empire',
@@ -322,7 +322,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/51TnahHDYkL._SX280_BO1,204,203,200_.jpg',
     description:
-      "The President's secret task force has developed an unprecedented defensive weapon that relies on an extremely rare radioactive element—and Dirk Pitt has followed a twisted trail to a secret cache of the substance. Now, racing against brutal storms, Soviet spies, and a ticking clock, Pitt begins his most thrilling mission—to raise from its watery grave the shipwreck of the century..."
+      'The President\'s secret task force has developed an unprecedented defensive weapon that relies on an extremely rare radioactive element—and Dirk Pitt has followed a twisted trail to a secret cache of the substance. Now, racing against brutal storms, Soviet spies, and a ticking clock, Pitt begins his most thrilling mission—to raise from its watery grave the shipwreck of the century...'
   },
   {
     bookTitle: 'Black Wind',
@@ -340,7 +340,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/51jYqXAd-vL._SX274_BO1,204,203,200_.jpg',
     description:
-      "Clive Cussler, author of sixteen consecutive New York Times bestseller brings us beloved character Dirk Pitt, who discovers a trail leading straight to priceless treasures. But it also thrusts him into conflict that could tip the world's balance of power the wrong way... Charts of lost gold...breathtaking art and rare volumes...maps of hidden oil and mineral deposits that could change the world's balance of power. Now Dirk Pitt discovers the secret trail of the treasures of Alexandria—a trail that plunges him into a brutal conspiracy for total domination of the globe. Zealots threaten to unseat the governments of Egypt and Mexico, exposing America to invasion and economic collapse. Suddenly, from East to West, anarchists reach their deadly tentacles into the heart of the United States. And Dirk Pitt, the hard-hitting hero of Clive Cussler's smash bestsellers Sahara and Inca Gold, is up against the most feared assassin known to man. An international band of terrorists is making its play for world power on the high seas—and Pitt is the only man alive who can stop them!"
+      'Clive Cussler, author of sixteen consecutive New York Times bestseller brings us beloved character Dirk Pitt, who discovers a trail leading straight to priceless treasures. But it also thrusts him into conflict that could tip the world\'s balance of power the wrong way... Charts of lost gold...breathtaking art and rare volumes...maps of hidden oil and mineral deposits that could change the world\'s balance of power. Now Dirk Pitt discovers the secret trail of the treasures of Alexandria—a trail that plunges him into a brutal conspiracy for total domination of the globe. Zealots threaten to unseat the governments of Egypt and Mexico, exposing America to invasion and economic collapse. Suddenly, from East to West, anarchists reach their deadly tentacles into the heart of the United States. And Dirk Pitt, the hard-hitting hero of Clive Cussler\'s smash bestsellers Sahara and Inca Gold, is up against the most feared assassin known to man. An international band of terrorists is making its play for world power on the high seas—and Pitt is the only man alive who can stop them!'
   },
   {
     bookTitle: 'Golden Buddha',
@@ -349,7 +349,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/51%2BmKMYqjGL._SX281_BO1,204,203,200_.jpg',
     description:
-      "The Corporation, a group of highly intelligent and skilled mercenaries, under the leadership of Juan Cabrillo, board a brand new ship. It's a state-of-the-art seagoing marvel with unthinkable technology at its disposal. And it's designed to look like a rusty old lumber hauler. But if Cabrillo and his team plan to make this spy ship their new headquarters, their first mission had better be a success. With the secret backing of the US government, Cabrillo sets out to put Tibet back in the hands of the Dalai Lama by striking a deal with the Russians and the Chinese. His main negotiating chip is knowledge of a golden Buddha containing records of vast oil reserves in the disputed land. But first, he'll have to locate—and steal—the all-important artifact. And there are certain people who would do anything in their power to see him fail..."
+      'The Corporation, a group of highly intelligent and skilled mercenaries, under the leadership of Juan Cabrillo, board a brand new ship. It\'s a state-of-the-art seagoing marvel with unthinkable technology at its disposal. And it\'s designed to look like a rusty old lumber hauler. But if Cabrillo and his team plan to make this spy ship their new headquarters, their first mission had better be a success. With the secret backing of the US government, Cabrillo sets out to put Tibet back in the hands of the Dalai Lama by striking a deal with the Russians and the Chinese. His main negotiating chip is knowledge of a golden Buddha containing records of vast oil reserves in the disputed land. But first, he\'ll have to locate—and steal—the all-important artifact. And there are certain people who would do anything in their power to see him fail...'
   },
   {
     bookTitle: 'The Mediterranean Caper',
@@ -358,7 +358,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/51td8sNAevL._SX281_BO1,204,203,200_.jpg',
     description:
-      "On a quiet Greek island, a U.S. air force base has come under attack—by a World War I fighter plane . . . a famous yellow Albatros supposedly lost at sea in 1918. Now it is up to Dirk Pitt, Al Giordino, and the rest of the NUMA team to root out the elusive truth behind the incident—and find out how it's connected to mysterious acts of sabotage against a scientific expedition, an international smuggling ring, and a dark-haired beauty with some dangerous secrets.  The search for answers will lead Pitt from a lavish island villa, to a moving freighter eerily empty of crew, to a massive underwater cavern housing the heart of a criminal operation that is larger and more elaborate than he ever could have imagined . . . a lucrative operation that its mastermind would kill to protect."
+      'On a quiet Greek island, a U.S. air force base has come under attack—by a World War I fighter plane . . . a famous yellow Albatros supposedly lost at sea in 1918. Now it is up to Dirk Pitt, Al Giordino, and the rest of the NUMA team to root out the elusive truth behind the incident—and find out how it\'s connected to mysterious acts of sabotage against a scientific expedition, an international smuggling ring, and a dark-haired beauty with some dangerous secrets.  The search for answers will lead Pitt from a lavish island villa, to a moving freighter eerily empty of crew, to a massive underwater cavern housing the heart of a criminal operation that is larger and more elaborate than he ever could have imagined . . . a lucrative operation that its mastermind would kill to protect.'
   },
   {
     bookTitle: 'Flood Tide',
@@ -367,7 +367,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/41JMC7NhP4L._SX273_BO1,204,203,200_.jpg',
     description:
-      "When NUMA agent DIRK PITT® rescues a beautiful undercover agent in a daring underwater operation at Orion Lake, just north of Seattle, he confronts a sinister network run by Qin Shang, a ruthless smuggler who sells Chinese immigrants into slavery. Shang's campaign contributions have bought him a collection of powerful U.S. politicians, but Pitt is not a man to be subverted by politics. As he moves to probe Shangs mystifying seaport in the Louisiana bayous, his investigation involves him in an adrenaline-pumped race up the Mississippi River and a desperate dash to recover sunken Chinese treasures lost half a century before. And in Qin Shang, Pitt faces ones of his most formidable foes -- a madman bent on killing thousands of innocent civilians with a catastrophic surge of mass destruction."
+      'When NUMA agent DIRK PITT® rescues a beautiful undercover agent in a daring underwater operation at Orion Lake, just north of Seattle, he confronts a sinister network run by Qin Shang, a ruthless smuggler who sells Chinese immigrants into slavery. Shang\'s campaign contributions have bought him a collection of powerful U.S. politicians, but Pitt is not a man to be subverted by politics. As he moves to probe Shangs mystifying seaport in the Louisiana bayous, his investigation involves him in an adrenaline-pumped race up the Mississippi River and a desperate dash to recover sunken Chinese treasures lost half a century before. And in Qin Shang, Pitt faces ones of his most formidable foes -- a madman bent on killing thousands of innocent civilians with a catastrophic surge of mass destruction.'
   },
   {
     bookTitle: 'Password to Larkspur Lane',
@@ -376,7 +376,7 @@ var bookData = [
     imageURL:
       'https://prodimage.images-bn.com/pimages/9780448095103_p0_v2_s550x406.jpg',
     description:
-      "Another exciting mystery begins for the  young detective when her friends Bess and George ask her to investigate a rumor that their wealthy great-granduncle, Asa Sidney, is virtually a prisoner in his own mansion. But solving the mystery and befriending Carol Wipple, the sixteen-year-old foster daughter of the caretakers of the old mansion, nearly costs Nancy the friendship of Bess and George. It takes all of Nancy's sleuthing ability as well as diplomacy to save it.Nancy braves one danger after another to bring to justice the swindlers who are stealing Asa Sidney’s fortune. With only the sign of the twisted candles to guide her, Nancy uncovers hidden treasure and an amazing letter that ends a family feud and brings unexpected happiness to Carol."
+      'Another exciting mystery begins for the  young detective when her friends Bess and George ask her to investigate a rumor that their wealthy great-granduncle, Asa Sidney, is virtually a prisoner in his own mansion. But solving the mystery and befriending Carol Wipple, the sixteen-year-old foster daughter of the caretakers of the old mansion, nearly costs Nancy the friendship of Bess and George. It takes all of Nancy\'s sleuthing ability as well as diplomacy to save it.Nancy braves one danger after another to bring to justice the swindlers who are stealing Asa Sidney’s fortune. With only the sign of the twisted candles to guide her, Nancy uncovers hidden treasure and an amazing letter that ends a family feud and brings unexpected happiness to Carol.'
   },
   {
     bookTitle: 'King Arthur',
@@ -385,7 +385,7 @@ var bookData = [
     imageURL:
       'https://prodimage.images-bn.com/pimages/9780141321011_p0_v4_s550x406.jpg',
     description:
-      "King Arthur is one of the greatest legends of all time. From the magical moment when Arthur releases the sword in the stone to the quest for the Holy Grail and the final tragedy of the Last Battle, Roger Lancelyn Green brings the enchanting world of King Arthur stunningly to life. One of the greatest legends of all time, with an inspiring introduction by David Almond, award-winning author of Clay, Skellig, Kit's Wilderness and The Fire-Eaters."
+      'King Arthur is one of the greatest legends of all time. From the magical moment when Arthur releases the sword in the stone to the quest for the Holy Grail and the final tragedy of the Last Battle, Roger Lancelyn Green brings the enchanting world of King Arthur stunningly to life. One of the greatest legends of all time, with an inspiring introduction by David Almond, award-winning author of Clay, Skellig, Kit\'s Wilderness and The Fire-Eaters.'
   },
   {
     bookTitle: 'The Sign of the Twisted Candles',
@@ -394,7 +394,7 @@ var bookData = [
     imageURL:
       'https://prodimage.images-bn.com/pimages/9780448095097_p0_v1_s550x406.jpg',
     description:
-      "Another exciting mystery begins for the  young detective when her friends Bess and George ask her to investigate a rumor that their wealthy great-granduncle, Asa Sidney, is virtually a prisoner in his own mansion. But solving the mystery and befriending Carol Wipple, the sixteen-year-old foster daughter of the caretakers of the old mansion, nearly costs Nancy the friendship of Bess and George. It takes all of Nancy's sleuthing ability as well as diplomacy to save it.Nancy braves one danger after another to bring to justice the swindlers who are stealing Asa Sidney’s fortune. With only the sign of the twisted candles to guide her, Nancy uncovers hidden treasure and an amazing letter that ends a family feud and brings unexpected happiness to Carol."
+      'Another exciting mystery begins for the  young detective when her friends Bess and George ask her to investigate a rumor that their wealthy great-granduncle, Asa Sidney, is virtually a prisoner in his own mansion. But solving the mystery and befriending Carol Wipple, the sixteen-year-old foster daughter of the caretakers of the old mansion, nearly costs Nancy the friendship of Bess and George. It takes all of Nancy\'s sleuthing ability as well as diplomacy to save it.Nancy braves one danger after another to bring to justice the swindlers who are stealing Asa Sidney’s fortune. With only the sign of the twisted candles to guide her, Nancy uncovers hidden treasure and an amazing letter that ends a family feud and brings unexpected happiness to Carol.'
   },
   {
     bookTitle: 'The Complete Tales of Winnie the Pooh',
@@ -403,7 +403,7 @@ var bookData = [
     imageURL:
       'https://prodimage.images-bn.com/pimages/9780525467267_p0_v1_s550x406.jpg',
     description:
-      "In 1926, the world was introduced to a portly little bear named Winnie-the-Pooh. Along with his young friend, Christopher Robin, Pooh delighted readers from the very beginning. His often befuddled perceptions and adorable insights won the hearts of everyone around him, including his close group of friends. From the energetic Tigger to the dismal Eeyore, A. A. Milne created a charming bunch, both entertaining and inspirational. These simple creatures often reflected a small piece of all of us: humble, silly, wise, cautious, creative, and full of life. Remember when Piglet did a very grand thing, or Eeyore's almost-forgotten birthday? Gorgeous watercolor illustrations from Ernest H. Shepard appear in all their glory. With beautiful colors and simple lines, these images hold their own as classics. The tales, filled with superb story lines and lessons, will continue to capture the hearts of new generations."
+      'In 1926, the world was introduced to a portly little bear named Winnie-the-Pooh. Along with his young friend, Christopher Robin, Pooh delighted readers from the very beginning. His often befuddled perceptions and adorable insights won the hearts of everyone around him, including his close group of friends. From the energetic Tigger to the dismal Eeyore, A. A. Milne created a charming bunch, both entertaining and inspirational. These simple creatures often reflected a small piece of all of us: humble, silly, wise, cautious, creative, and full of life. Remember when Piglet did a very grand thing, or Eeyore\'s almost-forgotten birthday? Gorgeous watercolor illustrations from Ernest H. Shepard appear in all their glory. With beautiful colors and simple lines, these images hold their own as classics. The tales, filled with superb story lines and lessons, will continue to capture the hearts of new generations.'
   },
   {
     bookTitle: 'Sula',
@@ -421,7 +421,7 @@ var bookData = [
     imageURL:
       'https://prodimage.images-bn.com/pimages/9781593081393_p0_v1_s550x406.jpg',
     description:
-      "Mischief is Tom Sawyer's middle name. There is nothing he likes better than playing hookey from school, messing about on the Mississippi with his best friend, the hobo Huckleberry Finn, or wooing the elusive beauty Becky Thatcher. Lazy and reckless, he is a menace to his Aunt Polly - 'Tom, I've a notion to skin you alive' - an embarrassment to his teachers and the envy of his peers. But there is method in his badness. He exhibits all the cunning of a magpie when hatching an elaborate scheme to avoid whitewashing a fence, and an adventure downriver with Huck and Joe Harper plunges the little town of St Petersburg into such an outpouring of grief that Tom is spared the belt on his return. But the innocent adventures end suddenly when Tom and Huck witness a murder in the graveyard. Should they tell of what they saw under the moonlight, when Injun Joe slipped the bloodstained knife into the hands of Muff Potter? Or should they 'keep mum' and risk letting an innocent man go to the gallows? 'Most of the adventures recorded in this book really occurred; one or two were experiences of my own, the rest of those boys who were schoolmates of mine', Mark Twain wrote in the preface to the original 1876 edition. Inspired by his upbringing in a small township on the Mississippi, and written 'to remind adults of what they once were themselves, and of how they felt and thought and talked, and what queer enterprises they sometimes engaged in', Twain's hymn to childhood and the great outdoors remains a classic account of boys on the loose in frontier-era America."
+      'Mischief is Tom Sawyer\'s middle name. There is nothing he likes better than playing hookey from school, messing about on the Mississippi with his best friend, the hobo Huckleberry Finn, or wooing the elusive beauty Becky Thatcher. Lazy and reckless, he is a menace to his Aunt Polly - \'Tom, I\'ve a notion to skin you alive\' - an embarrassment to his teachers and the envy of his peers. But there is method in his badness. He exhibits all the cunning of a magpie when hatching an elaborate scheme to avoid whitewashing a fence, and an adventure downriver with Huck and Joe Harper plunges the little town of St Petersburg into such an outpouring of grief that Tom is spared the belt on his return. But the innocent adventures end suddenly when Tom and Huck witness a murder in the graveyard. Should they tell of what they saw under the moonlight, when Injun Joe slipped the bloodstained knife into the hands of Muff Potter? Or should they \'keep mum\' and risk letting an innocent man go to the gallows? \'Most of the adventures recorded in this book really occurred; one or two were experiences of my own, the rest of those boys who were schoolmates of mine\', Mark Twain wrote in the preface to the original 1876 edition. Inspired by his upbringing in a small township on the Mississippi, and written \'to remind adults of what they once were themselves, and of how they felt and thought and talked, and what queer enterprises they sometimes engaged in\', Twain\'s hymn to childhood and the great outdoors remains a classic account of boys on the loose in frontier-era America.'
   },
   {
     bookTitle: 'The Wizard of Oz',
@@ -439,7 +439,7 @@ var bookData = [
     imageURL:
       'https://prodimage.images-bn.com/pimages/9781593081515_p0_v1_s550x406.jpg',
     description:
-      "The victim of betrayal by friends and an insidious plot to hide another's perfidy, innocent young sailor Edmond Dantes is imprisoned for life at the island fortress of the Chateau d'If. After fourteen years, he makes a harrowing escape and works his way to the island of Monte Cristo, where he recovers abundant treasures whose location were made known to him by a fellow prisoner. Wealthy beyond imagination, Dantes sets about engineering the downfall and ruin of the men who stole his youth and robbed him of everything that he held dear in life."
+      'The victim of betrayal by friends and an insidious plot to hide another\'s perfidy, innocent young sailor Edmond Dantes is imprisoned for life at the island fortress of the Chateau d\'If. After fourteen years, he makes a harrowing escape and works his way to the island of Monte Cristo, where he recovers abundant treasures whose location were made known to him by a fellow prisoner. Wealthy beyond imagination, Dantes sets about engineering the downfall and ruin of the men who stole his youth and robbed him of everything that he held dear in life.'
   },
   {
     bookTitle: 'A Journey to the Center of the Earth',
@@ -457,7 +457,7 @@ var bookData = [
     imageURL:
       'https://images-na.ssl-images-amazon.com/images/I/51a9x3Vz9ZL._SX346_BO1,204,203,200_.jpg',
     description:
-      "Anne of Green Gables is a 1908 novel by Canadian author Lucy Maud Montgomery (published as L. M. Montgomery). Written for all ages, it has been considered a classic children's novel since the mid-twentieth century. Set in the late 19th century, the novel recounts the adventures of Anne Shirley, an 11-year-old orphan girl, who is mistakenly sent to two middle-aged siblings; Matthew and Marilla Cuthbert, originally intending to adopt a boy to help them on their farm in the fictional town of Avonlea on Prince Edward Island. The novel recounts how Anne makes her way through life with the Cuthberts, in school, and within the town."
+      'Anne of Green Gables is a 1908 novel by Canadian author Lucy Maud Montgomery (published as L. M. Montgomery). Written for all ages, it has been considered a classic children\'s novel since the mid-twentieth century. Set in the late 19th century, the novel recounts the adventures of Anne Shirley, an 11-year-old orphan girl, who is mistakenly sent to two middle-aged siblings; Matthew and Marilla Cuthbert, originally intending to adopt a boy to help them on their farm in the fictional town of Avonlea on Prince Edward Island. The novel recounts how Anne makes her way through life with the Cuthberts, in school, and within the town.'
   },
   {
     bookTitle: 'Little Women',
