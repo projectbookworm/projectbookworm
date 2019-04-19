@@ -13,7 +13,8 @@ let description = document.getElementById('description').value;
 function validateBookTitle(text) {
   let input = document.getElementById('bookTitle');
   if (text === '' || text === null) {
-    bookTitle.setAttribute('background-color','#FFFF99');
+    input.placeholder = 'This is a required field.';
+    input.style.backgroundColor = '#FFFF99';
     return false;
   } else {
     return true;
@@ -21,7 +22,10 @@ function validateBookTitle(text) {
 }
 
 function validateAuthor(text) {
+  let input = document.getElementById('author');
   if (text === '' || text === null) {
+    input.placeholder = 'This is a required field.';
+    input.style.backgroundColor = '#FFFF99';
     return false;
   } else {
     return true;
@@ -29,7 +33,21 @@ function validateAuthor(text) {
 }
 
 function validateISBN13(text) {
+  let input = document.getElementById('isbn13');
   if (text === '' || text === null) {
+    input.placeholder = 'This is a required field.';
+    input.style.backgroundColor = '#FFFF99';
+    return false;
+  } else {
+    return true;
+  }
+}
+
+function validateImageURL(text) {
+  let input = document.getElementById('imageURL');
+  if (text === '' || text === null) {
+    input.placeholder = 'This is a required field.';
+    input.style.backgroundColor = '#FFFF99';
     return false;
   } else {
     return true;
@@ -37,15 +55,10 @@ function validateISBN13(text) {
 }
 
 function validateDescription(text) {
+  let input = document.getElementById('description');
   if (text === '' || text === null) {
-    return false;
-  } else {
-    return true;
-  }
-}
-
-function validateText(text) {
-  if (text === '' || text === null) {
+    input.placeholder = 'This is a required field.';
+    input.style.backgroundColor = '#FFFF99';
     return false;
   } else {
     return true;
@@ -82,31 +95,31 @@ function goToDetailsPage() {
 function addABook(event) {
   event.preventDefault();
 
-  let checkBookTitle = validateText(bookTitle);
-  let checkAuthor = validateText(author);
-  let checkISBN13 = validateText(isbn13);
-  let checkImageURL = validateText(imageURL);
-  let checkDescription = validateText(description);
+  let checkBookTitle = validateBookTitle(bookTitle);
+  let checkAuthor = validateAuthor(author);
+  let checkISBN13 = validateISBN13(isbn13);
+  let checkImageURL = validateImageURL(imageURL);
+  let checkDescription = validateDescription(description);
 
-  if (
-    checkBookTitle &&
-    checkAuthor &&
-    checkISBN13 &&
-    checkImageURL &&
-    checkDescription
-  ) {
+  console.log(checkBookTitle);
+  console.log(checkAuthor);
+  console.log(checkISBN13);
+  console.log(checkImageURL);
+  console.log(checkDescription);
+
+  if (checkBookTitle && checkAuthor && checkISBN13 &&
+    checkImageURL && checkDescription){
+
     let newBook = new Book(bookTitle, author, isbn13, imageURL, description);
 
     setLocalStorageData();
     getLocalStorageData();
 
-    //store the new book to localstorage in individual key for easy access
     localStorage.setItem('newBook', JSON.stringify(newBook));
 
     showBookStackClip();
-  } else {
-    //alert('Invalid or Empty Data entered in field(s)');
   }
+
 } //end of function addBook()
 
 ///////EVENT LISTENER//////////////////////////
