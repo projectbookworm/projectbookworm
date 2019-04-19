@@ -8,6 +8,7 @@ var searchKey = document.getElementById('keyphrase-filter');
 ///////////////FUNCTIONS//////////////////////////
 
 function searchByTitle(keyword) {
+  if(keyword === null || keyword === ''){return;}
   let key = new RegExp(keyword.toLowerCase());
   for (let i = 0; i < library.length; i++) {
     let lower = library[i].bookTitle.toLowerCase();
@@ -18,6 +19,7 @@ function searchByTitle(keyword) {
 }
 
 function searchByAuthor(keyword) {
+  if(keyword === null || keyword === ''){return;}
   let key = new RegExp(keyword.toLowerCase());
   for (let i = 0; i < library.length; i++) {
     let lower = library[i].author.toLowerCase();
@@ -28,6 +30,7 @@ function searchByAuthor(keyword) {
 }
 
 function searchByISBN(keyword) {
+  if(keyword === null || keyword === ''){return;}
   for (let i = 0; i < library.length; i++) {
     if (keyword.toLowerCase() === library[i].isbn13) {
       searchIndexResults.push(i);

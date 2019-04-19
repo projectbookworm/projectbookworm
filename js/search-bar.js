@@ -19,10 +19,13 @@ function handleEnterSubmit(e) {
 }
 
 function searchBar(query) {
+  if(query === null || query === ''){return;}
+  let keyReg = new RegExp(query.toLowerCase());
   library.forEach((book, i) => {
     for (let key in book) {
       let lowerCaseValue = book[key].toLowerCase();
-      if (query === lowerCaseValue) {
+      if ((keyReg.test(lowerCaseValue) && key === 'bookTitle') ||
+      (keyReg.test(lowerCaseValue) && key === 'author')) {
         results.push(i);
       }
     }
