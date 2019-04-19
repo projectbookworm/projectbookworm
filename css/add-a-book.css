@@ -8,7 +8,7 @@
 }
 
 .parallax {
-  background-image: url(../images/wooden-table.jpg);
+  background-image: url('../images/wooden-table.jpg');
   height: 100vh;
   min-height: 500px;
   background-attachment: fixed;
