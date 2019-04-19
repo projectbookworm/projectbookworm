@@ -13,15 +13,19 @@ img {
 
 #search-results {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   font-family: 'Montserrat', sans-serif;
 }
 
 main {
-  height: 100vh;
   color: #333;
 }
 
 body {
   background-color: #fffcef;
+}
+
+footer {
+  margin-top: 30px;
 }
