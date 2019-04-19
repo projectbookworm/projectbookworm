@@ -4,12 +4,6 @@
 let saveSubmit = document.getElementById('submit');
 let addBookFormDiv = document.getElementById('form-div');
 
-let bookTitle = document.getElementById('bookTitle').value;
-let author = document.getElementById('author').value;
-let isbn13 = document.getElementById('isbn13').value;
-let imageURL = document.getElementById('imageURL').value;
-let description = document.getElementById('description').value;
-
 function validateBookTitle(text) {
   let input = document.getElementById('bookTitle');
   if (text === '' || text === null) {
@@ -54,17 +48,6 @@ function validateImageURL(text) {
   }
 }
 
-function validateDescription(text) {
-  let input = document.getElementById('description');
-  if (text === '' || text === null) {
-    input.placeholder = 'This is a required field.';
-    input.style.backgroundColor = '#FFFF99';
-    return false;
-  } else {
-    return true;
-  }
-}
-
 function showBookStackClip() {
   var bookStackClip = document.createElement('IMG');
   bookStackClip.setAttribute(
@@ -95,20 +78,19 @@ function goToDetailsPage() {
 function addABook(event) {
   event.preventDefault();
 
+  let bookTitle = document.getElementById('bookTitle').value;
+  let author = document.getElementById('author').value;
+  let isbn13 = document.getElementById('isbn13').value;
+  let imageURL = document.getElementById('imageURL').value;
+  let description = document.getElementById('description').value;
+
   let checkBookTitle = validateBookTitle(bookTitle);
   let checkAuthor = validateAuthor(author);
   let checkISBN13 = validateISBN13(isbn13);
   let checkImageURL = validateImageURL(imageURL);
-  let checkDescription = validateDescription(description);
-
-  console.log(checkBookTitle);
-  console.log(checkAuthor);
-  console.log(checkISBN13);
-  console.log(checkImageURL);
-  console.log(checkDescription);
 
   if (checkBookTitle && checkAuthor && checkISBN13 &&
-    checkImageURL && checkDescription){
+    checkImageURL){
 
     let newBook = new Book(bookTitle, author, isbn13, imageURL, description);
 
